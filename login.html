@@ -1,0 +1,99 @@
+<!doctype html>
+<html>
+
+<head>
+    <title>Log-in</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        header {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 20px;
+        }
+
+        nav {
+            display: flex;
+            gap: 20px;
+            margin-bottom: 10px;
+        }
+
+        nav a {
+            text-decoration: none;
+
+        }
+
+        h1 {
+            margin: 0;
+            font-size: 2rem;
+        }
+        .container{
+            margin-top: 40px;
+            margin-left:20px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <a href="./home-page.html">Home</a>
+            <a href="./contact-us.html">Contact</a>
+            <a href="./about-us.html">About-Us</a>
+            <a href="./sign-up.html">Sign-up</a>
+            <a href="#">Log-in</a>
+        </nav>
+        <h1>Welcome To E-com</h1>
+    </header>
+    <div style="height:370px;">
+        <fieldset style="margin-left:450px; margin-right:450px; margin-top:30px;">
+            <legend>Log-in</legend>
+            <form>
+                <table align="center">
+                    <tr>
+                        <td><label for="user">E-mail or User Name:</label>
+                            <br>
+                            <input placeholder="Mail or name" type="text" id="user" name="e-mail-or-user-name" required>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label for="pass">Password:</label>
+                            <br>
+                            <input id="pass" name="password" placeholder="Password" type="password" required>
+                        </td>
+                    </tr>
+                    <tr align="right">
+                        <td>
+                            <button>Log-in</button>
+                        </td>
+                    </tr>
+                </table>
+                <table>
+                    <tr>
+                        <td>
+                            <label>Don't have an account. </label><a href="./Sign-up.html">Sign-up</a>
+                        </td>
+                    </tr>
+                </table>
+            </form>
+        </fieldset>
+    </div>
+    <br>
+    <div class="container">
+        <footer>
+            <nav>
+                <a href="./home-page.html">Home</a>
+                <a href="./contact-us.html">Contact</a>
+                <a href="#">About-Us</a>
+                <a href="./log-in.html">Log-in</a>
+                <a href="./sign-up.html">Sign-up</a>
+            </nav>
+        </footer>
+    </div>
+</body>
+
+</html>

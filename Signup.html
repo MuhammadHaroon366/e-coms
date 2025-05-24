@@ -1,0 +1,111 @@
+<!doctype html>
+<html>
+
+<head>
+    <title>Sign-Up</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        header {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 20px;
+        }
+
+        nav {
+            display: flex;
+            gap: 20px;
+            margin-bottom: 10px;
+        }
+
+        nav a {
+            text-decoration: none;
+
+        }
+
+        h1 {
+            margin: 0;
+            font-size: 2rem;
+        }
+        .container{
+             margin-top: 40px;
+             margin-left:20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="./home-page.html">Home</a>
+            <a href="./contact-us.html">Contact</a>
+            <a href="./about-us.html">About-Us</a>
+            <a href="./log-in.html">Log-in</a>
+            <a href="#">Sign-up</a>
+        </nav>
+        <h1>Welcome To E-com</h1>
+    </header>
+        <fieldset style="margin-left: 450px; margin-right:450px; margin-top:30px;">
+            <legend>Create Your Account</legend>
+            <form>
+                <table align="center">
+                    <tr>
+                        <td><label for="fname">First Name:</label>
+                            <br>
+                            <input id="fname" type="text" name="First-Name" required>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label for="lname">Last Name:</label>
+                            <br>
+                            <input id="lname" type="text" name="Last-Name" required>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label for="email">Your Email:</label>
+                            <br>
+                            <input id="email" type="email" name="Your-Email" required>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label for="password">Create Passward:</label>
+                            <br>
+                            <input id="password" type="password" name="Create-password" required>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label for="cpassword">Conform Your Password:</label>
+                            <br>
+                            <input id="cpassdword" type="password" name="conform-your-password" required>
+                        </td>
+                    </tr>
+                    <tr align="right">
+                        <td> <button>Sign-Up</button> </td>
+                    </tr>
+                </table>
+                <table>
+                    <tr>
+                        <td>Already have an account:</td>
+                        <td><a href="./log-in.html">Log-in</a></td>
+                    </tr>
+                </table>
+            </form>
+        </fieldset>
+    <br>
+        <div class="container">
+            <footer style="margin-top:60px;">
+                <nav>
+                    <a href="./home-page.html">Home</a>
+                    <a href="./contact-us.html">Contact</a>
+                    <a href="./About-us.html">About-Us</a>
+                    <a href="./log-in.html">Log-in</a>
+                    <a href="#">Sign-up</a>
+                </nav>
+            </footer>
+        </div>
+</body>
+
+</html>
